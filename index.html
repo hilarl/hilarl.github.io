@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Milligram provides a minimal setup of styles for a fast and clean starting point. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code.">
+		<title>Milligram | A minimalist CSS framework.</title>
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+		<link rel="stylesheet" href="lib/normalize.css/normalize.css">
+		<link rel="stylesheet" href="lib/milligram/dist/milligram.min.css">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles/slick.css"/>
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		
+		<main class="wrapper">
+			
+			<section id="main">
+				<div class="table-container">
+					<img id="logo" src="images/logo.svg">
+					<div class="table-container-inner">
+						<h1>The professional network that adapts to your personality</h1>
+						<h4>Download now</h4>
+						<img id="appstore-badge" src="images/appstore.png">
+					</div>
+					<img class="chevron-down" src="images/chevron-down.png">
+				</div>
+			</section>
+			
+			<section id="profile" class="promo-section">
+				<div class="table-container">
+					<img id="logo" src="images/logo.svg">
+					<div class="table-container-inner">
+						<div data-aos="fade-up">
+							<h2>A smarter profile</h2>
+							<p>The Meanwise Profile is the digital alternative to the traditional Resume. The Profile combines information from Ratings and your Portfolio to visualize your abilities in a beautiful design.</p>
+						</div>
+						<div class="">
+							<div class="row">
+								<div data-aos="zoom-out-right" class="column screen">
+									<img src="images/intro.png">								
+								</div>
+								<div data-aos="zoom-out-up" class="column screen">
+									<img src="images/bio.png">
+								</div>
+								<div data-aos="zoom-out-left" class="column screen">		
+									<img src="images/explore.png">
+								</div>
+							</div>
+						</div>
+						<div class="row button-row">
+							<button class="button button-outline">Create your profile</button>
+						</div>
+					</div>
+					<img class="chevron-down" src="images/chevron-down.png">
+				</div>
+			</section>
+			
+			<section id="visual" class="promo-section">
+				<div class="table-container">
+					<img id="logo" src="images/logo.svg">
+					<div class="table-container-inner">
+						<div data-aos="fade-up">
+							<h2>Say it . Scan it</h2>
+							<p>Get personalised recommendations for careers with just your voice. Access job openings or find your next hire by simply scanning them with your phone.</p>
+						</div>
+						<div class="">
+							<div class="row">
+								<div data-aos="zoom-out-right" class="column screen">
+									<img src="images/voice.png">
+								</div>
+								<div data-aos="zoom-out-up" class="column screen">
+									<img src="images/employers.png">
+								</div>
+								<div data-aos="zoom-out-left" class="column screen">
+									<img src="images/users.png">
+								</div>
+							</div>
+							<div class="row button-row">
+								<button class="button button-outline">Available Q2 2018</button>
+							</div>
+						</div>
+					</div>
+					<img class="chevron-down" src="images/chevron-down.png">
+				</div>
+			</section>
+			
+			<section id="community" class="promo-section">
+				<div class="table-container">
+					<img id="logo" src="images/logo.svg">
+					<div class="table-container-inner">
+						<h2>Community</h2>
+						<div class="">
+							<div class="container">
+								<!--<div class="slick">
+								  <div class="column">your content</div>
+								  <div class="column">your content</div>
+								  <div class="column">your content</div>
+									<div class="column">your content</div>
+								  <div class="column">your content</div>
+								  <div class="column">your content</div>
+								</div>-->
+							</div>
+							<div class="row button-row">
+								<button class="button button-outline">Join our community</button>
+							</div>
+						</div>
+					</div>
+					<img class="chevron-down" src="images/chevron-down.png">
+				</div>
+			</section>
+			
+		</main>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<script src="scripts/slick.js"></script>
+		<script src="scripts/main.js"></script>
+		<script>
+    AOS.init();
+		$(document).ready(function(){
+			$('.slick').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1
+});
+		});
+		
+
+  </script>
+
+	</body>
+</html>
