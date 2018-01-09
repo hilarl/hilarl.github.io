@@ -1,3 +1,10 @@
 'use strict';
 
-console.info('Yeah!! Milligram is amazing.');
+AOS.init();
+$(document).ready(function(){
+  $('.slick').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1
+  });
+});
